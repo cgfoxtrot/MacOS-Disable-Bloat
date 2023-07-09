@@ -1,6 +1,5 @@
 # disableBloat.sh
 
-```markdown
 ## Description
 
 `disableBloat.sh` is a script designed to disable unwanted services on macOS, optimizing system performance and improving security by reducing the attack surface. It disables various unnecessary GUI settings and user/system services that may consume system resources and pose potential security risks.
@@ -25,7 +24,6 @@ csrutil disable
 
 Restart your Mac to exit Recovery Mode.
 
-```markdown
 ## Usage
 
 To use `disableBloat.sh` and disable unwanted services on macOS, follow these steps:
@@ -55,8 +53,6 @@ The script will start disabling the unwanted services and optimizing your macOS 
 
 Once the script completes, reboot your macOS device for the changes to take effect.
 
-
-```markdown
 ## Reverting Changes
 
 If you wish to revert the changes made by the `disableBloat.sh` script, follow these steps:
@@ -75,7 +71,6 @@ The script will revert the changes made to the disabled services.
 
 Reboot your macOS device for the changes to take effect.
 
-```markdown
 ## Security Considerations
 
 By disabling unnecessary services, `disableBloat.sh` helps reduce the attack surface and potentially mitigates security risks on your macOS device. However, please note that modifying system services can have unintended consequences, and it's recommended to have a backup of your important data before running the script.
