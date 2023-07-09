@@ -36,19 +36,22 @@ To use `disableBloat.sh` and disable unwanted services on macOS, follow these st
 3. Navigate to the directory where you downloaded the `disableBloat.sh` script using the `cd` command. For example, if the script is in your Downloads folder, you would use the following command:
 
 ```shell
-cd ~/Downloads```
+cd ~/Downloads
+```
 
 Make the script executable by running the following command:
 
 ```shell
-chmod +x disableBloat.sh```
+chmod +x disableBloat.sh
+```
 
 Disable macOS SIP by following the instructions mentioned in the "Prerequisites" section.
 
 Run the script using the following command:
 
 ```shell
-./disableBloat.sh```
+./disableBloat.sh
+```
 
 The script will start disabling the unwanted services and optimizing your macOS system. It may prompt for your administrator password during the process.
 
@@ -65,7 +68,8 @@ If you wish to revert the changes made by the `disableBloat.sh` script, follow t
 3. Run the script with the `--revert` option using the following command:
 
 ```shell
-./disableBloat.sh --revert```
+./disableBloat.sh --revert
+```
 
 The script will revert the changes made to the disabled services.
 
