@@ -20,7 +20,8 @@ Before using `disableBloat.sh`, you need to disable macOS System Integrity Prote
 5. In the Terminal window, type the following command and press **Enter**:
 
 ```shell
-csrutil disable`
+csrutil disable
+```
 
 Restart your Mac to exit Recovery Mode.
 
