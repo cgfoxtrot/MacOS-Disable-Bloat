@@ -66,7 +66,6 @@ If you wish to revert the changes made by the `disableBloat.sh` script, follow t
 ```shell
 ./disableBloat.sh --revert
 
-
 The script will revert the changes made to the disabled services.
 
 Reboot your macOS device for the changes to take effect.
