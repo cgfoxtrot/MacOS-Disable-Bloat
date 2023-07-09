@@ -35,7 +35,7 @@ To use `disableBloat.sh` and disable unwanted services on macOS, follow these st
 3. Navigate to the directory where you downloaded the `disableBloat.sh` script using the `cd` command. For example, if the script is in your Downloads folder, you would use the following command:
 
 ```shell
-cd ~/Downloads
+cd ~/Downloads```
 
 Make the script executable by running the following command:
 
